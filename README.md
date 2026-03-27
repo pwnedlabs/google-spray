@@ -10,7 +10,7 @@ Google Workspace Password Sprayer
 ```bash
 # pip3 install playwright
 # playwright install chromium
-# ./username-anarchy --suffix @<domain> <Full Name> >> username.txt
+# ./username-anarchy --suffix @<domain> <Full Name> >> emails.txt
 
 $ python3 google-spray.py emails.txt passwords.txt
 

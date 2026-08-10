@@ -24,7 +24,7 @@ with sync_playwright() as p:
         page = context.new_page()
         try:
             page.goto("https://accounts.google.com/")
-            page.fill('input[type="email"]', e)
+            page.fill('input[name="identifier"]', e)
             page.keyboard.press("Enter")
 
             try:
